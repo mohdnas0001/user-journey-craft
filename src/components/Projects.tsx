@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
 import { useRef } from "react";
 import { ArrowUpRight } from "lucide-react";
+import dashboardImage from "@/assets/dashboard-preview.png";
 
 const projects = [
   {
@@ -62,11 +63,11 @@ const Projects = () => {
               className="group grid md:grid-cols-2 gap-6 md:gap-12 items-center p-6 md:p-8 bg-card rounded-2xl border border-border/50 card-hover cursor-pointer"
             >
               <div className="aspect-[16/10] bg-muted rounded-xl overflow-hidden order-2 md:order-1">
-                <div className="w-full h-full bg-gradient-to-br from-primary/10 via-accent/30 to-muted flex items-center justify-center group-hover:scale-105 transition-transform duration-700">
-                  <p className="text-muted-foreground text-sm">
-                    Project Preview
-                  </p>
-                </div>
+                <img 
+                  src={dashboardImage} 
+                  alt={project.title}
+                  className="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-700"
+                />
               </div>
 
               <div className="order-1 md:order-2">
