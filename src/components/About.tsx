@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
 import { useRef } from "react";
+import profilePhoto from "@/assets/profile-photo.jpeg";
 
 const About = () => {
   const ref = useRef(null);
@@ -41,9 +42,11 @@ const About = () => {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="aspect-[4/5] bg-muted rounded-2xl overflow-hidden"
           >
-            <div className="w-full h-full bg-gradient-to-br from-primary/20 to-accent flex items-center justify-center">
-              <p className="text-muted-foreground text-sm">Your Photo</p>
-            </div>
+            <img 
+              src={profilePhoto} 
+              alt="Profile photo"
+              className="w-full h-full object-cover object-top"
+            />
           </motion.div>
         </div>
       </div>
