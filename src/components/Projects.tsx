@@ -6,7 +6,7 @@ import dashboardImage from "@/assets/dashboard-preview.png";
 
 const projects = [
   {
-    title: "Mobile Banking App",
+    title: "Transport App",
     category: "Mobile Design",
     description:
       "Redesigned the mobile banking experience to simplify navigation and improve task completion.",
