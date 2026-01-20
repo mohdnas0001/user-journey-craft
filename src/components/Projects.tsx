@@ -67,13 +67,21 @@ const Projects = () => {
                 className="group grid md:grid-cols-2 gap-6 md:gap-12 items-center p-6 md:p-8 bg-card rounded-2xl border border-border/50 card-hover cursor-pointer"
               >
                 <div 
-                  className="aspect-[16/10] bg-muted rounded-xl overflow-hidden order-2 md:order-1 cursor-zoom-in"
+                  className={`aspect-[16/10] rounded-xl overflow-hidden order-2 md:order-1 cursor-zoom-in flex items-center justify-center ${
+                    project.title === "Transport App" 
+                      ? "bg-gradient-to-br from-slate-100 to-slate-200" 
+                      : "bg-muted"
+                  }`}
                   onClick={() => setSelectedImage(project.image)}
                 >
                   <img 
                     src={project.image} 
                     alt={project.title}
-                    className="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-700"
+                    className={`group-hover:scale-105 transition-transform duration-700 ${
+                      project.title === "Transport App"
+                        ? "h-full w-auto object-contain"
+                        : "w-full h-full object-cover object-top"
+                    }`}
                   />
                 </div>
 
