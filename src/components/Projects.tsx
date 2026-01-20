@@ -20,7 +20,7 @@ const projects = [
     image: "ecommerce",
   },
   {
-    title: "Healthcare Dashboard",
+    title: "Ajanah App",
     category: "Dashboard Design",
     description:
       "Designed a comprehensive dashboard for healthcare professionals to manage patient data.",
