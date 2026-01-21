@@ -18,7 +18,7 @@ const projects = [
     title: "E-Commerce Platform",
     category: "Web Design",
     description:
-      "Created an intuitive shopping experience with streamlined checkout and product discovery.",
+      "A web-based admin dashboard designed to manage events, attendees, and registrations efficiently.",
     image: ecommerceImage,
   },
   {
