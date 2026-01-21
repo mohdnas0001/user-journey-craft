@@ -25,7 +25,7 @@ const projects = [
     title: "Ajanah App",
     category: "Dashboard Design",
     description:
-      "Designed a comprehensive dashboard for healthcare professionals to manage patient data.",
+      "Designed an intuitive event management dashboard focused on usability, allowing organizers to manage events, registrations, schedules, and attendees seamlessly.",
     image: ajanahImage,
   },
 ];
