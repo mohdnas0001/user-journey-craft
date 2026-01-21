@@ -15,7 +15,7 @@ const projects = [
     image: transportImage,
   },
   {
-    title: "E-Commerce Platform",
+    title: "Admin Dashboard",
     category: "Web Design",
     description:
       "A web-based admin dashboard designed to manage events, attendees, and registrations efficiently.",
