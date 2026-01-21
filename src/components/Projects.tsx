@@ -11,7 +11,7 @@ const projects = [
     title: "Transport App",
     category: "Mobile Design",
     description:
-      "Redesigned the mobile banking experience to simplify navigation and improve task completion.",
+      "A mobile app design that enables users to book rides quickly, track trips, and enjoy a smooth transportation experience.",
     image: transportImage,
   },
   {
