@@ -31,13 +31,13 @@ const Contact = () => {
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
-            <a href="mailto:hello@example.com" className="group flex items-center gap-3 px-8 py-4 bg-background text-foreground rounded-full hover:bg-background/90 transition-colors">
+            <a href="mailto:gabbayusuf@gmail.com" className="group flex items-center gap-3 px-8 py-4 bg-background text-foreground rounded-full hover:bg-background/90 transition-colors">
               <Mail className="w-5 h-5" />
               <span className="font-medium">Send an Email</span>
               <ArrowUpRight className="w-4 h-4 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
             </a>
 
-            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="group flex items-center gap-3 px-8 py-4 border border-background/30 rounded-full hover:bg-background/10 transition-colors">
+            <a href="https://www.linkedin.com/in/yusuf-gambo-abba-5753a8344?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank" rel="noopener noreferrer" className="group flex items-center gap-3 px-8 py-4 border border-background/30 rounded-full hover:bg-background/10 transition-colors">
               <Linkedin className="w-5 h-5" />
               <span className="font-medium">LinkedIn</span>
               <ArrowUpRight className="w-4 h-4 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
